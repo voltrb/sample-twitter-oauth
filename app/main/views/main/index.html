@@ -1,0 +1,9 @@
+<:Title>
+  Home
+
+<:Body>
+  <h1>Home</h1>
+
+  {{ if Volt.current_user }}
+    <img src="{{ Volt.current_user.image_url }}" />
+  {{ end }}
